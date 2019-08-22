@@ -32,10 +32,10 @@ class Collection extends React.Component {
           return (
             <Card
               key={index}
-              title="Sherlock Holmes"
-              src="https://images-na.ssl-images-amazon.com/images/I/91dDv9WOcFL.jpg"
-              genres={["detective", "masea", "dusea"]}
-              description="blabndgsh hghd jg hygdn jh gujg "
+              title={movie.title}
+              src={movie.src}
+              genres={movie.genres}
+              description={movie.description}
             />
           );
         })}

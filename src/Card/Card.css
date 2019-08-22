@@ -42,9 +42,12 @@
 .read-more-button {
   border-radius: 12px;
   background-color: #cc7731;
-  width: 75%;
+  margin-right: 60px;
+  margin-left: 80px;
+  width: 50%;
   border: #cc7731;
   color: white;
+  text-align: center;
 }
 .read-more-button:hover {
   background-color: #2b2e2b;
