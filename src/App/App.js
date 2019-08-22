@@ -12,7 +12,10 @@ function App() {
   return (
     <Router>
       <div className="app">
-        <Header></Header>
+        <Header
+          logoText="Logo ruler"
+          menu={["Popular", "New", "Search"]}
+          imageSrc="https://cdn.pixabay.com/photo/2017/07/04/23/41/white-wings-2473023_960_720.png"></Header>
         <div className="app-content">
           <Route exact path="/" component={Home}></Route>
           <Route path="/about" exact component={About}></Route>
