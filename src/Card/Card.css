@@ -2,22 +2,16 @@
   width: 200px;
   height: 250px;
 }
-.grid {
-  display: inline-grid;
-  grid-template-columns: auto auto;
-  background-color: black;
-  color: white;
-}
 .card {
   display: flex;
   justify-content: flex-start;
   align-self: center;
   margin: 30px;
-  background-color: #2b2e2b;
   height: 250px;
 }
 .card-content {
   padding: 40px;
+  background-color: #2b2e2b;
 }
 .all-movie-genres {
   font-size: 12px;
@@ -50,6 +44,7 @@
   background-color: #cc7731;
   width: 75%;
   border: #cc7731;
+  color: white;
 }
 .read-more-button:hover {
   background-color: #2b2e2b;

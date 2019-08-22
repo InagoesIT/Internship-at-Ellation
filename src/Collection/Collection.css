@@ -1,0 +1,6 @@
+.collection {
+  display: inline-grid;
+  grid-template-columns: auto auto;
+  background-color: black;
+  color: white;
+}
