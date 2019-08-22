@@ -1,11 +1,11 @@
 import React from "react";
-import "./Collection.css";
 import Card from "../Card/Card";
+import "./Collection.css";
 
 function Collection() {
   return (
     <div className="collection">
-      <Card></Card>
+      <Card />
     </div>
   );
 }
