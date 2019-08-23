@@ -7,6 +7,8 @@ import Footer from "../Footer/Footer";
 
 import Home from "../Home/Home";
 import About from "../About/About";
+import New from "../New/New";
+import Popular from "../Popular/Popular";
 
 function App() {
   return (
@@ -14,11 +16,17 @@ function App() {
       <div className="app">
         <Header
           logoText="Logo ruler"
-          menu={["Popular", "New", "Search"]}
-          imageSrc="https://cdn.pixabay.com/photo/2017/07/04/23/41/white-wings-2473023_960_720.png"></Header>
+          menu={[
+            { link: "/popular", title: "Popular" },
+            { link: "/new", title: "New" },
+            { link: "/search", title: "Search" },
+          ]}
+          imageSrc="https://www.freelogodesign.org/file/app/client/thumb/804a5679-237d-466d-9f3e-d4b4033330d5_200x200.png?1566561612010"></Header>
         <div className="app-content">
           <Route exact path="/" component={Home}></Route>
           <Route path="/about" exact component={About}></Route>
+          <Route path="/new" exact component={New}></Route>
+          <Route path="/popular" exact component={Popular}></Route>
         </div>
         <Footer></Footer>
       </div>

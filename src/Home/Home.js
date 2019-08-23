@@ -5,7 +5,7 @@ import "./Home.css";
 function Home() {
   return (
     <div className="home">
-      <Collection></Collection>
+      <Collection cardCount={4} sorting="vote_count.desc"></Collection>
     </div>
   );
 }

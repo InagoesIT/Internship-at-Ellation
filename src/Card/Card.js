@@ -5,7 +5,15 @@ function Card({ title, genres, description, src }) {
   return (
     <div className="grid">
       <div className="card">
-        <img className="card-image" src={src} alt="" />
+        <img
+          className="card-image"
+          src={
+            src
+              ? src
+              : "https://www.dansk.nl/dcc/themes/danskn/assets/img/theme/notfound.png"
+          }
+          alt=""
+        />
         <div className="card-content">
           <ul className="all-movie-genres">
             {genres.map((genre, id) => (

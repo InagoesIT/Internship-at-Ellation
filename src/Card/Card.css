@@ -12,6 +12,7 @@
 .card-content {
   padding: 23px;
   background-color: #2b2e2b;
+  flex: 1;
 }
 .all-movie-genres {
   font-size: 12px;
