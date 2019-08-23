@@ -5,7 +5,6 @@ import { API_KEY } from "../constants.js";
 
 class Collection extends React.Component {
   state = {
-    status: "success",
     movies: [],
   };
   componentDidMount() {

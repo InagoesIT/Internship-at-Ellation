@@ -1,13 +1,23 @@
+@import url("https://fonts.googleapis.com/css?family=Livvic&display=swap");
+.body {
+  min-width: 1050px;
+  margin: 0 auto;
+  background-color: black;
+}
 .app {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
   background-color: black;
+  font-family: "Livvic", sans-serif;
+  line-height: 1.25;
 }
 
 .app-content {
   flex: 1 1 auto;
   display: flex;
+  width: 1050px;
+  margin: 0 auto;
 }
 
 .app a {

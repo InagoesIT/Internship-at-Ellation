@@ -1,6 +1,7 @@
 .collection {
-  display: inline-grid;
+  display: grid;
   grid-template-columns: 1fr 1fr;
   background-color: black;
   color: white;
+  grid-gap: 30px;
 }
