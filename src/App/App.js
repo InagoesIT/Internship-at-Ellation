@@ -4,13 +4,16 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import "./App.css";
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
+import Movie from "../Movie/Movie";
 
 import Home from "../Home/Home";
 import About from "../About/About";
 import New from "../New/New";
 import Popular from "../Popular/Popular";
+import Best_Rated from "../Best_Rated/Best_Rated";
 
 function App() {
+  document.title = "Movie Fan";
   return (
     <Router>
       <div className="app">
@@ -27,6 +30,8 @@ function App() {
           <Route path="/about" exact component={About}></Route>
           <Route path="/new" exact component={New}></Route>
           <Route path="/popular" exact component={Popular}></Route>
+          <Route path="/best-rated" exact component={Best_Rated}></Route>
+          <Route path="/movie/:id" exact component={Movie}></Route>
         </div>
         <Footer></Footer>
       </div>

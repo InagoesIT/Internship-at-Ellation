@@ -1,7 +1,8 @@
 import React from "react";
 import "./Card.css";
+import { Link } from "react-router-dom";
 
-function Card({ title, genres, description, src }) {
+function Card({ title, genres, description, src, to }) {
   return (
     <div className="grid">
       <div className="card">
@@ -24,7 +25,9 @@ function Card({ title, genres, description, src }) {
           </ul>
           <h1 className="movie-title">{title}</h1>
           <p className="movie-description">{description}</p>
-          <button className="read-more-button">READ MORE</button>
+          <Link to={to} className="read-more-button">
+            READ MORE
+          </Link>
         </div>
       </div>
     </div>

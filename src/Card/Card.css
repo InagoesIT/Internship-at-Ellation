@@ -42,15 +42,16 @@
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
+  margin-bottom: 15px;
 }
 .read-more-button {
   border-radius: 12px;
   background-color: #cc7731;
-  margin-top: 15px;
-  width: 50%;
   border: 1px solid #cc7731;
-  color: white;
   text-align: center;
+  font-size: 13.5px;
+  display: block;
+  width: 50%;
 }
 .read-more-button:hover {
   background-color: #2b2e2b;

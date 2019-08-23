@@ -1,3 +1,21 @@
 .home {
   background-color: black;
 }
+.collection-name {
+  font-size: 30px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  color: #cc7731;
+}
+.view-more-button {
+  border-radius: 12px;
+  background-color: #cc7731;
+  border: 1px solid #cc7731;
+  text-align: center;
+  font-size: 17px;
+  display: block;
+  margin-top: 30px;
+}
+.view-more-button:hover {
+  background-color: black;
+}

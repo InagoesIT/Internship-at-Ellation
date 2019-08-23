@@ -23,10 +23,5 @@
 
 .app a {
   text-decoration: none;
-  color: #fff;
-  font-size: 25px;
-}
-
-.app a:hover {
-  text-decoration: underline;
+  color: white;
 }
