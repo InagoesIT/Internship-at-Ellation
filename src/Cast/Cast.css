@@ -1,0 +1,21 @@
+.actor-details {
+  width: 165px;
+}
+.actor-image {
+  width: 165px;
+  height: 230px;
+  padding-bottom: 10px;
+}
+.actor-name {
+  font-size: 20px;
+  padding-bottom: 7px;
+}
+.actor-info {
+  font-size: 15px;
+  padding-bottom: 20px;
+}
+.cast {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 50px;
+}

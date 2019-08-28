@@ -14,27 +14,27 @@
   background-color: #2b2e2b;
   flex: 1;
 }
-.all-movie-genres {
+.all-card-genres {
   font-size: 12px;
   white-space: nowrap;
   padding-bottom: 15px;
   display: flex;
 }
-.movie-genre {
+.card-genre {
   position: relative;
   padding-right: 3px;
 }
-.movie-genre::after {
+.card-genre::after {
   content: " |";
 }
-.movie-genre:last-child::after {
+.card-genre:last-child::after {
   content: "";
 }
-.movie-title {
+.card-title {
   font-size: 22px;
   padding-bottom: 15px;
 }
-.movie-description {
+.card-description {
   font-size: 15px;
   max-height: 91.75px;
   -webkit-line-clamp: 5;

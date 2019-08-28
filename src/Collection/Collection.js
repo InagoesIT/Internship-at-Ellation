@@ -2,7 +2,6 @@ import React from "react";
 import Card from "../Card/Card";
 import "./Collection.css";
 import { API_KEY } from "../constants.js";
-import { Link } from "react-router-dom";
 
 class Collection extends React.Component {
   state = {
@@ -33,7 +32,6 @@ class Collection extends React.Component {
       });
   }
   render(props) {
-    console.log(this.state.movies);
     return (
       <div className="collection">
         {this.state.movies

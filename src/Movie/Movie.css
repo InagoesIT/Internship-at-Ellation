@@ -1,0 +1,36 @@
+.title {
+  margin-bottom: 30px;
+  font-size: 40px;
+}
+.movie-details {
+  min-height: 420px;
+  margin-bottom: 40px;
+  width: 1024px;
+}
+.movie-poster {
+  width: 300px;
+  height: 400px;
+  float: left;
+  padding: 0px 30px 20px 0px;
+}
+.cast-text {
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+.all-movie-genres {
+  font-size: 14px;
+  white-space: nowrap;
+  padding-bottom: 27px;
+  display: flex;
+  margin-top: 30px;
+}
+.movie-genre {
+  position: relative;
+  padding-right: 3px;
+}
+.movie-genre::after {
+  content: " |";
+}
+.movie-genre:last-child::after {
+  content: "";
+}

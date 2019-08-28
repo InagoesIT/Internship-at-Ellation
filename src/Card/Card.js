@@ -16,15 +16,15 @@ function Card({ title, genres, description, src, to }) {
           alt=""
         />
         <div className="card-content">
-          <ul className="all-movie-genres">
+          <ul className="all-card-genres">
             {genres.map((genre, id) => (
-              <li key={id} className="movie-genre">
+              <li key={id} className="card-genre">
                 {genre}
               </li>
             ))}
           </ul>
-          <h1 className="movie-title">{title}</h1>
-          <p className="movie-description">{description}</p>
+          <h1 className="card-title">{title}</h1>
+          <p className="card-description">{description}</p>
           <Link to={to} className="read-more-button">
             READ MORE
           </Link>
